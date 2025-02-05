@@ -70,6 +70,9 @@ import { ServiceTecnologiasTechRiders } from './services/service.tecnologiastech
 import { ServiceTipoTecnologias } from './services/service.tipotecnologias';
 import { ServiceUsuarios } from './services/service.usuarios';
 import { ServiceValoracionesCharlas } from './services/service.valoracionescharlas';
+import { TutorialesVideosComponent } from './components/tutoriales-videos/tutoriales-videos.component';
+import { TutorialesPostComponent } from './components/tutoriales-post/tutoriales-post.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -110,6 +113,9 @@ import { ServiceValoracionesCharlas } from './services/service.valoracionescharl
     RegisterusuarioComponent,
     SolicitarcharlaComponent,
     ValoracioncharlaComponent,
+    TutorialesVideosComponent,
+    TutorialesPostComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,

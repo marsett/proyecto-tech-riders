@@ -29,6 +29,9 @@ import { ValoracioncharlaComponent } from './components/valoracioncharla/valorac
 import { DetallesTechRiderComponent } from './components/detalles-tech-rider/detalles-tech-rider.component';
 import { CursosCentroComponent } from './components/cursos-centro/cursos-centro.component';
 import { CrearEmpresaCentroComponent } from './components/crear-empresa-centro/crear-empresa-centro.component';
+import { TutorialesPostComponent } from './components/tutoriales-post/tutoriales-post.component';
+import { TutorialesVideosComponent } from './components/tutoriales-videos/tutoriales-videos.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -40,6 +43,11 @@ const routes: Routes = [
     path: 'usuario/editar-tecnologias',
     component: EditartecnologiastechriderComponent,
   },
+
+  { path: 'post', component: TutorialesPostComponent },
+  { path: 'videos', component: TutorialesVideosComponent },
+  { path: 'contacta', component: ContactoComponent },
+
   {
     path: 'usuario/modificar-contrasenya',
     component: ModificarcontrasenyaComponent,
@@ -76,6 +84,8 @@ const routes: Routes = [
   { path: 'cursos-centro/:idcentro', component: CursosCentroComponent },
   { path: 'peticiones', component: PanelPeticionesAdminComponent },
   { path: '**', redirectTo: '/' },
+
+  
 ];
 
 export const appRoutingProvider: any[] = [];
