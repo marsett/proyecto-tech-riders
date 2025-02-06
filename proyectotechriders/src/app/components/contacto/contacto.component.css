@@ -86,3 +86,19 @@ body {
 .social-media a:hover {
     color: #555;
 }
+
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+    }
+    .map-container {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+        order: 2;
+    }
+    .social-media {
+        order: 1;
+    }
+}
